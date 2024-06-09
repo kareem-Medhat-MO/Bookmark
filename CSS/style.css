@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-name: "Wire One", sans-serif;
+    --font-quotes: "Yesteryear", cursive;
+    --font-web: "Yanone Kaffeesatz", sans-serif;
+}
+
+.font-name {
+    font-family: var(--font-name);
+}
+
+.font-quotes {
+    font-family: var(--font-quotes);
+}
+
+.font-web {
+    font-family: var(--font-web);
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: #fff;
+    padding: 3.125rem 2.5rem;
+    min-height: 18.75rem;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.text-area {
+    text-align: center;
+    font-size: 25px;
+    color: #262626;
+    line-height: 1.5;
+}
+
+
+main .writer {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(160, 36, 52);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.button-area .btn button {
+    background-color: #262626;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: transparent 1px solid;
+    outline: none;
+    padding: 12px 15px;
+    transition: 0.4s linear;
+    font-family: monospace;
+}
+
+.button-area .btn button:hover{
+    background-color:antiquewhite;
+    color: black;
+    border: #262626 1px solid;
+}

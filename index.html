@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes generator</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Wire+One&family=Yanone+Kaffeesatz:wght@200..700&family=Yesteryear&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body class="vh-100 d-flex justify-content-center align-items-center flex-column">
+
+    <header class="mb-5">
+        <h2 class="font-web h1 text-center" data-aos="zoom-in" data-aos-duration="700">Javascript Quote Generator</h2>
+    </header>
+
+    <main class="d-flex flex-column justify-content-center align-items-center text-center "  data-aos="fade-up"  data-aos-duration="700">
+        <div class="text-area">
+            <span class="quote font-quotes fs-1">
+                "Be yourself; everyone else is already taken."
+            </span>
+        </div>
+
+        <div class="writer font-name fs-3">— Oscar Wilde</div>
+
+        <div class="button-area mt-3">
+            <div class="btn">
+                <button id="qbtn" >Find Quotes</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
